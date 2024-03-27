@@ -1,15 +1,8 @@
-const express = require('express'); 
-const app = express();
+let express = require('express'); 
+let app = express();
 
 
 const port = 3000; //Escolha um valor que esteja entre 1025 e 65535
-
-// // Configuração do Firebase
-// const firebaseConfig = {
-//     // Insira suas credenciais do Firebase aqui
-// };
-// firebase.initializeApp(firebaseConfig);
-// const db = firebase.firestore();
 
 // Configurações do Express
 app.set('view engine', 'pug');
@@ -18,13 +11,6 @@ app.set('views', './views');
 //Recursos estáticos da aplicação
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
-
-// app.use(session({
-//     secret: 'sua_chave_secreta',
-//     resave: false,
-//     saveUninitialized: true
-// }));
-
 
 
 // Rota principal
