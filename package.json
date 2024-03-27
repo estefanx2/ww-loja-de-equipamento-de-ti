@@ -1,0 +1,15 @@
+{
+  "name": "ww-loja-de-equipamento-de-ti",
+  "version": "1.0.0",
+  "description": "Projeto criado para ajudar nas discussoes sobre o processo de criação de aplicações web usando javascript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "[\"web\"",
+    "\"nodejs\"]"
+  ],
+  "author": "\"Estefane Cavalcante\"",
+  "license": "GPL-3.0-only"
+}
