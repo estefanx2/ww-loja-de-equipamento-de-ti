@@ -1,5 +1,7 @@
 let express = require('express'); 
 let app = express();
+let pug = require('pug');
+app.set ("view engine", "pug");
 
 
 const port = 3000; //Escolha um valor que esteja entre 1025 e 65535
