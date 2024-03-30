@@ -1,7 +1,8 @@
+//firebase não inicializado
+
 let express = require('express'); 
 let app = express();
 let pug = require('pug');
-app.set ("view engine", "pug");
 
 
 const port = 3000; //Escolha um valor que esteja entre 1025 e 65535
@@ -93,3 +94,4 @@ app.get('/logout', (req, res) => {
 app.listen(port, () => {
     console.log(`Servidor rodando em http://localhost:${port}`);
 });
+
