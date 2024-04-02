@@ -11,6 +11,10 @@
     "[\"web\"",
     "\"nodejs\"]"
   ],
-  "author": "\"Estefane Cavalcante\"",
-  "license": "GPL-3.0-only"
+  "author": "Estefane Cavalcante",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pug": "^3.0.2"
+  }
 }
